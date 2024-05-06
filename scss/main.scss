@@ -1,3 +1,5 @@
+@import "html/variables";
+
 * {
     margin: 0%;
     padding: 0%;
@@ -5,13 +7,13 @@
 
 
     .bg-violeta {
-        background-color: #5A535F;
+        background-color: $color-principal;
     }
 
     header {
 
 
-        background-color: #5A535F;
+        background-color: $color-principal;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         margin: 0px;
         padding: 0px;
@@ -86,6 +88,8 @@ section {
 } 
 }
 
+
+@import"html/estilos";
 
 
 

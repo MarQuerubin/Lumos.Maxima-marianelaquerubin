@@ -1,0 +1,11 @@
+@mixin grid { 
+    text-align: center;
+    display: grid;
+    font-weight: 20px;
+    font-family: "Kadwa", serif;
+
+}
+
+.body{
+    @include grid
+}

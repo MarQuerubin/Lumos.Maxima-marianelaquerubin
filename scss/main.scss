@@ -1,4 +1,7 @@
 @import "html/variables";
+@import"html/estilos";
+@import"html/mediaquery";
+@import"html/mixin";
 
 * {
     margin: 0%;
@@ -89,7 +92,12 @@ section {
 }
 
 
-@import"html/estilos";
+
+
+
+
+
+
 
 
 

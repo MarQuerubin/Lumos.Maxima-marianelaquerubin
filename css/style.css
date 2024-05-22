@@ -3,6 +3,7 @@ footer {
 }
 footer #rosa {
   color: rgb(103, 99, 123);
+  font-size: xx-small;
 }
 
 /*mobile*/
@@ -102,6 +103,9 @@ footer #rosa {
   display: flex;
   gap: 20px;
 }
+* header nav div ul li a:hover {
+  background-color: #DDB85D;
+}
 * body {
   text-align: center;
   font-family: "Kadwa", serif;
@@ -129,6 +133,11 @@ footer #rosa {
   padding: 30px;
   display: flex;
   flex-wrap: wrap;
+}
+* section .imag {
+  width: 20%;
+  padding: 10%;
+  box-sizing: border-box;
 }
 
 /*# sourceMappingURL=style.css.map */

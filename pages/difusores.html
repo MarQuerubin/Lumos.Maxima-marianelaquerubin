@@ -49,49 +49,46 @@
 
     </header>
     <h1 class="titulo">Difusores</h1>
-    <main class="container-fluid">
-        <div class="card" style="width: 18rem;">
+    <main class="container-fluid row">
+
+        <div class="card col-sm-6" style="width: 18rem;">
             <img src="../img/difusor.jpg" class="card-img-top" alt="Difusor transparente de cristal con varillas aromaticas arriba">
             <div class="card-body">
                 <h5 class="card-title">Varillas</h5>
                 <p class="card-text">Realizadas por encargo con aceites esenciales para armonizar tus ambientes</p>
-                <a href="https://g.co/kgs/GzazGAE" class="btn btn-primary">Ver ubicación </a>
+                <a href="https://g.co/kgs/GzazGAE" class="btn btn-primary" target="_blank">Ver ubicación </a>
             </div>
         </div>
 
+        <form class="col-sm-6">
+            <h2> <em>Puedes realizar tu encargo aquí</em> </h2>
+
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email </label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+              </div>
+
+              
+              <div class="mb-3">
+                <label class="form-label">Aceite esencial</label>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Lavanda</option>
+                    <option value="1">Rosas</option>
+                    <option value="2">Gardenía</option>
+                    <option value="3">Palo Santo</option>
+                    <option value="4">Vainilla y Coco</option>
+                  </select>
+            </div>
+
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Información adicional</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+              
+            <a class="btn btn-success mb-3">Enviar </a>
+        </form>
+
     </main>
-
-
-    <form>
-        <h2> Puedes realizar tu encargo aquí</h2>
-        <div class="form-group">
-            <label for="exampleFormControlInput1">Email de contacto</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-        </div>
-        <div class="form-group">
-            <label for="exampleFormControlSelect1">Aceite esencial</label>
-            <select class="form-control" id="exampleFormControlSelect1">
-                <option>Lavanda</option>
-                <option>Rosas</option>
-                <option>Gardenía</option>
-                <option>Palo Santo</option>
-                <option>Vainilla y Coco</option>
-        </div>
-        <div class="form-group">
-            <label for="exampleFormControlSelect2">Example multiple select</label>
-            <select multiple class="form-control" id="exampleFormControlSelect2">
-                <option>1</option>
-                <option>2</option>
-                <option>3</option>
-                <option>4</option>
-                <option>5</option>
-            </select>
-        </div>
-        <div class="form-group">
-            <label for="exampleFormControlTextarea1">Información adicinoal</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-        </div>
-    </form>
 
     <footer>
         <h3 id="rosa">Copyright LumosMaxima Velas Aromáticas - Todos los derechos reservados </h3>

@@ -16,8 +16,6 @@ footer #rosa {
   }
   header .logo {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
     width: 50%;
   }
   main {
@@ -40,8 +38,6 @@ footer #rosa {
   }
   header .logo {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
     width: 25%;
   }
   main {
@@ -82,11 +78,6 @@ footer #rosa {
   justify-content: space-between;
   display: flex;
 }
-* header h1 .titulo {
-  padding-left: 15px;
-  font-family: "Times New Roman", Times, serif;
-  color: saddlebrown;
-}
 * header nav {
   list-style: none;
   display: flex;
@@ -104,13 +95,25 @@ footer #rosa {
   gap: 20px;
 }
 * header nav div ul li a:hover {
-  background-color: #DDB85D;
+  background-color: #868486;
 }
 * body {
   text-align: center;
   font-family: "Kadwa", serif;
   font-weight: 20px;
   display: grid;
+}
+* .carousel {
+  width: 50vh;
+  height: 500px;
+}
+* .carousel-inner {
+  height: 100%;
+}
+* .titulo {
+  padding-left: 15px;
+  padding-top: 10px;
+  color: #4A148C;
 }
 * main {
   background-color: #655669;
@@ -126,7 +129,9 @@ footer #rosa {
   object-fit: cover;
 }
 * main div .gris {
-  background-color: #E8A99B;
+  background-color: rgba(242, 227, 207, 0.9921568627);
+  border-radius: 15%;
+  color: #5A535F;
 }
 * section {
   margin: 0px 30px;
@@ -138,6 +143,11 @@ footer #rosa {
   width: 20%;
   padding: 10%;
   box-sizing: border-box;
+}
+* section .redondo {
+  max-width: 50vh;
+  border-radius: 15px;
+  padding: 5px;
 }
 
 /*# sourceMappingURL=style.css.map */

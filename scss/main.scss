@@ -33,12 +33,6 @@
 
         }
 
-        h1 .titulo {
-            padding-left: 15px;
-            font-family: 'Times New Roman', Times, serif;
-            color: saddlebrown;
-        }
-
         nav {
             list-style: none;
             display: flex;
@@ -59,7 +53,7 @@
 
             div ul li {
                 a:hover {
-                    background-color: #DDB85D;
+                    background-color: #868486;
                 }
             }
         }
@@ -71,6 +65,21 @@
         font-weight: 20px;
         display: grid;
 
+    }
+
+    .carousel {
+        width: 50vh;
+        height: 500px;
+    }
+    
+    .carousel-inner {
+        height: 100%;
+    }
+
+    .titulo {
+        padding-left: 15px;
+        padding-top: 10px;
+        color: #4A148C;
     }
 
     main {
@@ -89,7 +98,9 @@
             }
 
             .gris {
-                background-color: #E8A99B;
+                background-color: #f2e3cffd;
+                border-radius: 15%;
+                color: $color-principal;
             }
         }
     }
@@ -104,6 +115,12 @@
             width: 20%;
             padding: 10%;
             box-sizing: border-box;
+        }
+
+        .redondo {
+            max-width: 50vh;
+            border-radius: 15px;
+            padding: 5px;
         }
 
     }
